@@ -19,4 +19,8 @@ public class EstadoControlador {
                 "mensaje", "API operativa"
         );
     }
+    @GetMapping("/saludo")
+    public String saludo() {
+        return "Este es el ejemplo que quiero que veáis";
+    }
 }
